@@ -118,8 +118,11 @@ export class PanelComponent implements OnInit {
 }
 ```
 > __Notes__
+
 > • _this.authService.fetchWeather("London")_ returns an observable that can be subscribed
+
 > • We subscribe to this observable. The subscription code block is called when the HTTP request returns data
+
 > • The response data can be accessed using the variable _data_
 
 ----
