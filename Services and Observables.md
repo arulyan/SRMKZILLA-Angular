@@ -42,9 +42,9 @@
  6. Modify _auth.service.ts_
  > We will be consuming an online API to fetch the weather information of a city.
 
-> Steps
-> • Import _HttpClient_ and _map_
-> • Create a private instance _http_ of _HttpClient_ in the constructor
+> Steps\
+> • Import _HttpClient_ and _map_\
+> • Create a private instance _http_ of _HttpClient_ in the constructor\
 > • Create a function to fetch weather details
 
 >Refer to the code below
@@ -117,9 +117,9 @@ export class PanelComponent implements OnInit {
 	}
 }
 ```
-> Notes
-> • _this.authService.fetchWeather("London")_ returns an observable that can be subscribed
-> • We subscribe to this observable. The subscription code block is called when the HTTP request returns data
+> Notes\
+> • _this.authService.fetchWeather("London")_ returns an observable that can be subscribed\
+> • We subscribe to this observable. The subscription code block is called when the HTTP request returns data\
 > • The response data can be accessed using the variable _data_
 
 ----
